@@ -8,7 +8,7 @@ import '../css/main.css'
 
 
 const Index = () => (
-        <div className='Wrapper'>
+        <div /*className='Wrapper'*/>
             <Layout1 />
             
         </div>

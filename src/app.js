@@ -13,7 +13,7 @@ function App() {
 
     return(
         
-        <div className='Wrapper'>
+        <div /*className='Wrapper'*/>
             <Layout1 />
             <Layout2 />
             <Layout2sales />

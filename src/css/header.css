@@ -1,7 +1,7 @@
 
 .photo {
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
     justify-self: center;
     border-radius: 100%;
     display: inline-block;
@@ -21,4 +21,15 @@
 
 .userphoto h1 {
     font-size: 1.5em;
+}
+
+@media (max-width: 480px) {
+.photo {
+    width: 60%;
+    height: 60%;
+    justify-self: center;
+    border-radius: 100%;
+    display: inline-block;
+    vertical-align: top;
+    }
 }

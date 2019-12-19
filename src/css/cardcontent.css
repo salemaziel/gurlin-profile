@@ -10,7 +10,7 @@
     color: #ffffff;**/
     display: grid;
     position: relative;
-    max-width: 100%;
+    max-width: 85%;
     z-index: 10;
     -moz-align-items: center;
     -webkit-align-items: center;
@@ -38,8 +38,7 @@
     transition: opacity 1s ease 0s,transform 1s ease 0s;
     color: #7a7676;
     position: relative;
-    padding: 3.125rem 2.5rem;
-    max-width: 100%;
+    padding: 2em 1em;
     /**width: 40rem;**/
 }
 
@@ -64,7 +63,7 @@
     margin: 0 .5em;
     font-variant: small-caps;
     font-weight: 200;
-    color: #7a7676;
+    color: #4d4a4a;
 }
 
 .card-subtitle {
@@ -83,3 +82,28 @@
     color: #7a7676;
 }
 
+@media (max-width: 480px) {
+    .card-title h1 {
+        display: inline-block;
+        text-align: center;
+        font-size: 2.5em;
+        margin: 0 .5em;
+        font-variant: small-caps;
+        font-weight: 200;
+        color: #4d4a4a;
+    }
+    .card-subtitle {
+        text-align: center;
+        padding-top: 1.5em;
+        color: rgba(255, 255, 255, 0.4);
+    }
+    .card-subtitle h2 {
+        display: inline-block;
+        text-align: center;
+        font-size: 1em;
+        /* font-variant: small-caps; */
+        font-weight: 300;
+        color: #7a7676;
+        line-height: 1.2em;
+    }
+}
