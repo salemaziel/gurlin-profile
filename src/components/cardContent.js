@@ -67,8 +67,8 @@ function cardContent() {
         
           
             <CardSubtitle>
-                <h2>Biomedical engineer. 
-                <br />  PhD Type 1 diabetes researcher. <br />
+                <h2>Biomedical Engineer. 
+                <br />  Ph.D Type 1 Diabetes Researcher. <br />
                 <br />
                     Rainbow chaser. 
                     Sunset junkie.<br />

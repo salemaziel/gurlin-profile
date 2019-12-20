@@ -20,8 +20,8 @@ class Header extends React.Component {
             <meta property="twitter:card" content="summary_large_image" />
             </Helmet>
             <div className="userphoto">
-                <a href="#">
-                <img className="photo" src={Profilepic} alt=""></img></a>
+                
+                <img className="photo" src={Profilepic} alt=""></img>
                 
             </div>
         </>
