@@ -60,16 +60,17 @@ function cardContent() {
             </CardHeader>
             <CardTitle>
                 <h1>
-                    Rachel E. Gurlin 
+                    Rachel Ellyn <br /> Gurlin 
                 </h1> 
             </CardTitle>
         <CardBody>
         
           
             <CardSubtitle>
-                <h2>PhD Type 1 diabetes researcher. <br />
-                    Biomedical engineer. <br />
-                    Rainbow chaser. <br />
+                <h2>Biomedical engineer. 
+                <br />  PhD Type 1 diabetes researcher. <br />
+                <br />
+                    Rainbow chaser. 
                     Sunset junkie.<br />
                     
 

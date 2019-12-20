@@ -8,7 +8,7 @@ ul.icons {
 
     ul.icons li {
         display: inline-block;
-        padding: 0 .75em; 
+        padding: 0 .5em; 
         font-size: 1.5em;
     }
 
@@ -22,13 +22,13 @@ ul.icons {
             -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
             transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
             border-radius: 100%;
-            /*border: solid 1px #4c4b4d;*/
-            color: inherit;
-            display: inline-block;
-            height: 20px;
-            line-height: 20px;
-            text-align: center;
-            width: 20px;
+            border: solid 1px;
+            /**color: inherit;**/
+            /*display: inline-block;*/
+            height: 50px;
+            line-height: 50px;
+            /*text-align: center;*/
+            width: 50px;
         }
 
             ul.icons li .icon:before {
@@ -37,12 +37,156 @@ ul.icons {
 
             ul.icons li .icon:hover {
                 background: rgba(207, 201, 214, 0.035);
-                color: inherit !important;
             }
 
             ul.icons li .icon:active {
                 background: rgba(207, 201, 214, 0.1);
             }
+            .icons {
+                cursor: default;
+                padding: 0;
+                letter-spacing: 0;
+            }
+
+            .icons li {
+                display: inline-block;
+                vertical-align: middle;
+                position: relative;
+                z-index: 1;
+            }
+
+            .icons li a {
+                display: flex;
+                -moz-align-items: center;
+                -webkit-align-items: center;
+                -ms-align-items: center;
+                align-items: center;
+                -moz-justify-content: center;
+                -webkit-justify-content: center;
+                -ms-justify-content: center;
+                justify-content: center;
+            }
+
+            .icons li a svg {
+                display: block;
+                position: relative;
+                -moz-transition: fill 0.25s ease;
+                -webkit-transition: fill 0.25s ease;
+                -ms-transition: fill 0.25s ease;
+                transition: fill 0.25s ease;
+            }
+
+            .icons li a + svg {
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                -moz-pointer-events: none;
+                -webkit-pointer-events: none;
+                -ms-pointer-events: none;
+                pointer-events: none;
+                -moz-transition: fill 0.25s ease, stroke 0.25s ease;
+                -webkit-transition: fill 0.25s ease, stroke 0.25s ease;
+                -ms-transition: fill 0.25s ease, stroke 0.25s ease;
+                transition: fill 0.25s ease, stroke 0.25s ease;
+            }
+
+            .icons li a .label {
+                display: none;
+            }
+
+            .icons {
+                font-size: 1.25em;
+                width: calc(100% + 1rem);
+                margin-left: -0.5rem;
+            }
+
+            .icons li {
+                margin: 0.5rem;
+            }
+
+            .icons li a {
+                border-radius: 100%;
+                width: 2em;
+                height: 2em;
+            }
+
+            /*.icons li a svg {
+                width: 60%;
+                height: 60%;
+            }*/
+
+
+            /*.icons a {
+                border: solid 1px #FFFFFF;
+            }*/
+
+
+            .icons {
+                font-size: 1.25em;
+                width: calc(100% + 1rem);
+                margin-left: -0.5rem;
+                
+            }
+
+            .icons01 li {
+                margin: 0.5rem;
+                
+            }
+
+.fa-twitter {
+    color: rgb(14, 167, 167);
+    /*border: 1px solid #77d6d6;
+    border-radius: 360%;*/
+    padding: 2px;
+}
+.fa-twitter:hover{
+    color: rgb(77, 165, 165);
+    transform: scale(1.15);
+    transition: ease-in-out 150ms;
+    border: none!important;
+}
+
+.fa-facebook-f {
+    color: rgb(87, 128, 222);
+    /*border: 1px solid #5780de;
+    border-radius: 100%;*/
+}
+
+.fa-facebook-f:hover {
+    color: rgb(119, 147, 214);
+    transform: scale(1.15);
+    transition: ease-in-out 150ms;
+    border: none!important;
+}
+.fa-instagram {
+    color: rgb(214, 88, 161);
+    /*border: 1px solid #d658a1;
+    border-radius: 360%;*/
+}
+
+.fa-instagram:hover {
+    color: rgb(231, 131, 190);
+    transform: scale(1.15);
+    transition: ease-in-out 150ms;
+    border: none!important;
+}
+.fa-linkedin-in {
+    color: rgb(33, 141, 199);
+    /*border: 1px solid #0074b2;
+    border-radius: 360%;*/
+
+}
+
+.fa-linkedin-in:hover {
+    color: rgb(94, 175, 219);
+    transform: scale(1.15);
+    transition: ease-in-out 150ms;
+    border: none!important;
+}
 
 /* Footer */
 
@@ -62,9 +206,22 @@ ul.icons {
     position: relative;
 
 }
+@media (max-width: 1680px) {
+    html {
+        font-size: 13pt;
+    }
+}
 
+@media (max-width: 1280px) {
+    html {
+        font-size: 13pt;
+    }
+}
 
 @media (max-width: 980px) {
+    html {
+        font-size: 11pt;
+    }
     #footer {
         padding: 5em 3em 3em 3em ;
     }
@@ -79,39 +236,45 @@ ul.icons {
             
         }
 }
+@media (max-width: 736px) {
+    html {
+        font-size: 11pt;
+    }
+    ul.icons li {
+        padding: 0 0.25em 0 0;
+    }
 
-    /**@media screen (max-width: 736px) {
-        ul.icons li {
-            padding: 0 0.25em 0 0;
-        }
+    ul.icons li .icon {
+        height: 1.5em;
+        line-height: 2.5em;
+        width: 1.5em;
+    }
 
-            ul.icons li .icon {
-                height: 2.5em;
-                line-height: 2.5em;
-                width: 2.5em;
-            }
+    ul.icons li .icon:before {
+        font-size: 1em;
+    }
+    #footer {
+		padding: 3em 3em 1em 3em ;
+	}
 
-                ul.icons li .icon:before {
-                    font-size: 1em;
-                }
-        #footer {
-				padding: 3em 3em 1em 3em ;
-			}
+	#footer h2 {
+		font-size: 1.25em;
+	}
 
-				#footer h2 {
-					font-size: 1.25em;
-				}
+	#footer h2 + p {
+		margin: 0 0 2em 0;
+	}
 
-					#footer h2 + p {
-						margin: 0 0 2em 0;
-					}
+	#footer .icons {
+		left: -3em;
+		top: 1em;
+		width: calc(100% + 6em);
+	}
+}
+@media (max-width: 480px) {
+    
+}
 
-				#footer .icons {
-					left: -3em;
-					top: 1em;
-					width: calc(100% + 6em);
-				}
+@media (max-width: 360px) {
 
-
-
-    }**/
+}

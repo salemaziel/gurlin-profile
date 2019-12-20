@@ -9,7 +9,7 @@ class Header extends React.Component {
         return (
         <>
             <Helmet htmlAttributes={{ lang: 'en' }}>
-            <title>Rachel E. Gurlin</title>
+            <title>Rachel Ellyn Gurlin</title>
             <meta name="description" content="Personal Profile for Rachel Gurlin" />
             <meta property="og:site_name" content="Rachel Gurlin" />
             <meta property="og:title" content="Rachel Gurlin" />

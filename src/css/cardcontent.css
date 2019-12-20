@@ -81,7 +81,14 @@
     font-weight: 300;
     color: #7a7676;
 }
-
+@media (max-width: 1280px) {
+    .card-header {
+        padding: 3em 0 0;
+    }
+    .card-subtitle {
+        padding: 5em 1em;
+    }
+}
 @media (max-width: 480px) {
     .card-title h1 {
         display: inline-block;
@@ -94,16 +101,31 @@
     }
     .card-subtitle {
         text-align: center;
-        padding-top: 1.5em;
+        padding: 3.5em 0 2.5em;
         color: rgba(255, 255, 255, 0.4);
     }
     .card-subtitle h2 {
         display: inline-block;
         text-align: center;
-        font-size: 1em;
-        /* font-variant: small-caps; */
+        font-size: 1.3em;
+        font-variant: small-caps;
+        font-weight: 300;
+        color: #7a7676;
+        line-height: 1.3em;
+    }
+}
+@media (max-width: 376px) {
+    .card-bg {
+        padding: 1em 1em 3em;
+    }
+    .card-subtitle h2 {
+        display: inline-block;
+        text-align: center;
+        font-size: 1.2em;
+        font-variant: small-caps; 
         font-weight: 300;
         color: #7a7676;
         line-height: 1.2em;
     }
+
 }
