@@ -144,7 +144,7 @@ ul.icons {
     padding: 2px;
 }
 .fa-twitter:hover{
-    color: rgb(77, 165, 165);
+    color: rgb(32, 228, 228);
     transform: scale(1.15);
     transition: ease-in-out 150ms;
     border: none!important;
@@ -157,7 +157,7 @@ ul.icons {
 }
 
 .fa-facebook-f:hover {
-    color: rgb(119, 147, 214);
+    color: rgb(95, 180, 230);
     transform: scale(1.15);
     transition: ease-in-out 150ms;
     border: none!important;
@@ -169,7 +169,7 @@ ul.icons {
 }
 
 .fa-instagram:hover {
-    color: rgb(231, 131, 190);
+    color: rgb(247, 7, 227);
     transform: scale(1.15);
     transition: ease-in-out 150ms;
     border: none!important;
@@ -182,7 +182,7 @@ ul.icons {
 }
 
 .fa-linkedin-in:hover {
-    color: rgb(94, 175, 219);
+    color: rgb(15, 207, 233);
     transform: scale(1.15);
     transition: ease-in-out 150ms;
     border: none!important;

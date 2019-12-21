@@ -21,36 +21,7 @@ function cardContent() {
     
     const categoria = ['Primeiro', 'Segundo', 'Terceiro'];
     const subcategorias = [
-        [
-            {
-                name : 'Primeiro.primeiro',
-                url : 'Primeiro.primeiro'
-            },
-            {
-                name : 'Primeiro.segundo',
-                url : 'Primeiro.segundo'
-            }
-        ],
-        [
-            {
-                name : 'Segundo.primeiro',
-                url : 'Segundo.primeiro'
-            },
-            {
-                name : 'Segundo.segundo',
-                url : 'Segundo.segundo'
-            }
-        ],
-        [
-            {
-                name : 'Terceiro.primeiro',
-                url : 'Terceiro.primeiro'
-            },
-            {
-                name : 'Terceiro.segundo',
-                url : 'Terceiro.segundo'
-            }
-        ]
+        
     ];
 
     return (
@@ -70,8 +41,8 @@ function cardContent() {
                 <h2>Biomedical Engineer. 
                 <br />  Ph.D Type 1 Diabetes Researcher. <br />
                 <br />
-                    Rainbow chaser. 
-                    Sunset junkie.<br />
+                    <span className="rainbow">Rainbow </span> chaser. 
+                     Sunset junkie.<br />
                     
 
                 </h2>

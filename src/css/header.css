@@ -6,7 +6,9 @@
     border-radius: 100%;
     display: inline-block;
     vertical-align: top;
+    box-shadow: 3px 3px 10px rgb(105, 102, 102);
 }
+
 
 .userphoto {
     display: inline-block;
@@ -16,8 +18,8 @@
     font-size: .8em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-
 }
+
 
 .userphoto h1 {
     font-size: 1.5em;
